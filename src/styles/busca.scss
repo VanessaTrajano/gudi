@@ -1,21 +1,24 @@
-
-.containerBusca{
+.containerBusca {
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    height: 40vw;
+    height: 60vh;
     width: 100%;
 }
 
-.background{
-    height: 40vw;
+.backgroundPc {
+    height: 60vh;
     width: 100%;
     position: absolute;
     z-index: -1;
 }
 
-.buscaBox{
+.backgroundMobile {
+    display: none;
+}
+
+.buscaBox {
     width: 50%;
     height: 100%;
     display: flex;
@@ -27,25 +30,26 @@
     left: 5%;
 }
 
-.tittle{
+.tittle {
     color: #005BD5;
     font-size: 7.5vh;
     width: 70%;
     font-family: ArgentumBold;
 }
 
-.input{
+.input {
     width: 46%;
     height: 6vh;
     padding: 0 12px;
     border: none;
     border-radius: 50px;
 }
-.input::placeholder{
+
+.input::placeholder {
     font-size: 2.2vh;
 }
 
-.buttonBusca{
+.buttonBusca {
     border: none;
     border-radius: 50px;
     width: 20%;
@@ -54,4 +58,62 @@
     color: #fff;
     font-family: ArgentumBold;
     font-size: 2.2vh;
-} 
+}
+
+@media (max-width: 700px) {
+    .containerBusca {
+        align-items: end;
+        height: 85vh;
+        width: 100%;
+    }
+
+    .backgroundPc {
+        display: none;
+    }
+
+    .backgroundMobile {
+        display: flex;
+        height: 85vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .buscaBox {
+        width: 70%;
+        align-items: end;
+        gap: 3vh;
+        position: relative;
+        right: 5%;
+    }
+
+    .tittle {
+        color: #005BD5;
+        font-size: 7vh;
+        width: 70%;
+        text-align: end;
+    }
+
+    .input {
+        width: 46%;
+        height: 6vh;
+        padding: 0 12px;
+        border: none;
+        border-radius: 50px;
+    }
+
+    .input::placeholder {
+        font-size: 2.2vh;
+    }
+
+    .buttonBusca {
+        border: none;
+        border-radius: 50px;
+        width: 20%;
+        height: 7%;
+        background-color: #005BD5;
+        color: #fff;
+        font-family: ArgentumBold;
+        font-size: 2.2vh;
+    }
+}
