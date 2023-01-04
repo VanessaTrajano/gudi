@@ -1,0 +1,22 @@
+{
+  "name": "gudi",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "wite",
+    "build": "tsc && wite build",
+    "preview": "wite preview"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@witejs/plugin-react": "^1.3.2",
+    "typescript": "^4.6.3",
+    "wite": "^2.9.15"
+  }
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: ArgentumBlack;
+  src: url(../../styles/fonts/argentum-sans.black.ttf);
+}
+@font-face {
+  font-family: ArgentumBold;
+  src: url(../../styles/fonts/argentum-sans.bold.ttf);
+}
+@font-face {
+  font-family: ArgentumExtraBold;
+  src: url(../../styles/fonts/argentum-sans.extrabold.ttf);
+}
+@font-face {
+  font-family: ArgentumExtraLight;
+  src: url(../../styles/fonts/argentum-sans.extralight.ttf);
+}
+@font-face {
+  font-family: ArgentumLight;
+  src: url(../../styles/fonts/argentum-sans.light.ttf);
+}
+@font-face {
+  font-family: ArgentumMedium;
+  src: url(../../styles/fonts/argentum-sans.medium.ttf);
+}
+@font-face {
+  font-family: ArgentumRegular;
+  src: url(../../styles/fonts/argentum-sans.regular.ttf);
+}
+@font-face {
+  font-family: ArgentumSemiBold;
+  src: url(../../styles/fonts/argentum-sans.semibold.ttf);
+}
+@font-face {
+  font-family: ArgentumThin;
+  src: url(../../styles/fonts/argentum-sans.thin.ttf);
+}
