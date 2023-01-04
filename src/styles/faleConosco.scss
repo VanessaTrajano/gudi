@@ -46,3 +46,31 @@
     font-family: ArgentumRegular;
     font-size: 2.7vh;
 } 
+
+@media (max-width: 700px){
+    .faleContainer{
+        top: 15vh;
+        padding: 3vh;
+    }
+    
+    .faleContainer h2{
+        font-size: 5vh;
+    }
+    
+    .faleContainer input{
+        width: 80%;
+    }
+    
+    .input1{
+        height: 7vh;
+    }
+    
+    .input2{
+        height: 20vh;
+    }
+    
+    .faleContainer button{
+        width: 20vw;
+        font-size: 2.5vh;
+    } 
+}

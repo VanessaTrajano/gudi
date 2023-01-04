@@ -42,7 +42,7 @@
     font-family: ArgentumRegular;
     background-color: transparent;
     width: 35%;
-    height: 13%;
+    height: 5vh;
     border-radius: 50px;
     font-size: 2.3vh;
 } 
@@ -62,7 +62,33 @@
     
     .buttonViagem{
         width: 35%;
-        height: 15%;
         font-size: 2vh;
     } 
+}
+
+@media (max-width: 700px){
+    .containerVN{
+        width: 100%;
+        gap: 1.5vh;
+    }
+    
+    .tracoDiv p{
+        font-size: 1.8vh;
+    }
+    
+    .traco{
+        width: 8vw;
+    }
+    
+    .tittleViagem{
+        font-size: 5vh;
+    }
+    
+    .textViagem{
+        font-size: 2.5vh;
+    }
+    
+    .buttonViagem{
+        font-size: 2vh;
+    }
 }

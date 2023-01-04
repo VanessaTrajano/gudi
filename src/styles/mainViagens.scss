@@ -8,8 +8,56 @@
     width: 50%;
 }
 
+.boxViagensPc{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+
+.boxViagensPc img{
+    width: 50%;
+}
+
+.boxViagensMobile{
+    display: none;
+}
+
 .boxCidades{
     display: flex;
     width: 100%;
     height: fit-content;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 700px) {
+    .boxViagens{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .boxViagens img{
+        width: 90%;
+    }
+
+    .boxViagensPc{
+        display: none;
+    }
+
+    .boxViagensMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .boxViagensMobile img{
+        width: 90%;
+    }
+
+    .boxCidades{
+        margin-top: 2vh;
+        justify-content: space-evenly;
+    }
 }

@@ -31,3 +31,23 @@
         top: 11vh;
     } 
 }
+
+@media (max-width: 700px){
+    .cidadesContainer{
+        width: 48%;
+        position: relative;
+    }
+    
+    .cidadesContainer img{
+        width: 100%;
+        position: static;
+        z-index: -1;
+    }
+    
+    .cidadesContainer button{
+        width: 55%;
+        left: 25%;
+        top: 10vh;
+        position: absolute;
+    }
+}

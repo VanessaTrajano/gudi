@@ -3,12 +3,12 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    height: 60vh;
+    height: 70vh;
     width: 100%;
 }
 
 .backgroundPc {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     position: absolute;
     z-index: -1;
@@ -62,7 +62,7 @@
 
 @media (max-width: 700px) {
     .containerBusca {
-        align-items: end;
+        align-items: center;
         height: 85vh;
         width: 100%;
     }
@@ -80,40 +80,21 @@
     }
 
     .buscaBox {
-        width: 70%;
+        width: 80%;
         align-items: end;
-        gap: 3vh;
-        position: relative;
-        right: 5%;
     }
 
     .tittle {
-        color: #005BD5;
         font-size: 7vh;
         width: 70%;
         text-align: end;
     }
 
     .input {
-        width: 46%;
-        height: 6vh;
-        padding: 0 12px;
-        border: none;
-        border-radius: 50px;
-    }
-
-    .input::placeholder {
-        font-size: 2.2vh;
+        width: 48%;
     }
 
     .buttonBusca {
-        border: none;
-        border-radius: 50px;
-        width: 20%;
-        height: 7%;
-        background-color: #005BD5;
-        color: #fff;
-        font-family: ArgentumBold;
-        font-size: 2.2vh;
+        width: 25%;
     }
 }
