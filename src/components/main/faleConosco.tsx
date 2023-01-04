@@ -1,11 +1,15 @@
-import { useState } from 'react'
+import '../../styles/global.scss'
+import '../../styles/faleConosco.scss'
 
 function FaleConosco() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <p>Hello World</p>
+    <div className="faleContainer">
+      <h2>Fale conosco</h2>
+      <input className='input1' placeholder='Digite seu melhor email' type='email'/>
+      <input className='input1' placeholder='Assunto' type='text'/>
+      <input className='input2' placeholder='Escreva a sua mensagem' type='text'/>
+      <button>Enviar</button>
     </div>
   )
 }

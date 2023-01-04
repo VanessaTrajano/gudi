@@ -1,0 +1,74 @@
+.muralContainer{
+    position: relative;
+    top: 45vh;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.muralTittle{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1vh;
+    color: #8B8B8B;
+}
+
+.muralTittle p{
+    font-family: ArgentumMedium;
+    font-size: 2.7vh;
+}
+
+.muralTittle h2{
+    font-family: ArgentumBold;
+    font-size: 6vh;
+    width: 25%;
+    line-height: 1.2;
+}
+
+.muralGrade{
+    width: 60%;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.muralGrade img{
+    width: 32%;
+    height: fit-content;
+}
+
+.logosBox{
+    display: flex;
+    width: 60%;
+    height: 35vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3vh;
+}
+.logoBox{
+    width: 20%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logoBox img{
+    width: 45%;
+}
+
+.logoBox h3{
+    width: 80%;
+    font-size: 2.9vh;
+    text-align: center;
+    font-family: ArgentumBold;
+}
