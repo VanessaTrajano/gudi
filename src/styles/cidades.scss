@@ -20,4 +20,14 @@
     left: 26%;
     top: 17vh;
     font-family: ArgentumRegular;
+    font-size: 2.2vh;
+} 
+
+@media (max-width: 1000px){
+    .cidadesContainer button{
+        width: 55%;
+        height: 6vh;
+        left: 23%;
+        top: 11vh;
+    } 
 }

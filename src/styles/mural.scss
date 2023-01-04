@@ -60,7 +60,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-}
+} 
 
 .logoBox img{
     width: 45%;
@@ -71,4 +71,28 @@
     font-size: 2.9vh;
     text-align: center;
     font-family: ArgentumBold;
+}
+
+@media (max-width: 1000px){
+    .muralTittle h2{
+        font-size: 5vh;
+        width: 30%;
+    }
+
+    .muralGrade{
+        height: 75vh;
+    }
+    
+    .logosBox{
+        width: 70%;
+    }
+
+    .logoBox{
+        width: 21%;
+    } 
+    
+    .logoBox h3{
+        width: 100%;
+        font-size: 2.7vh;
+    }
 }

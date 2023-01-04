@@ -22,6 +22,10 @@
     padding: 0 2vw;
 }
 
+.faleContainer input::placeholder{
+    font-size: 2.5vh;
+}
+
 .input1{
     height: 6vh;
     border-radius: 50px;
@@ -41,4 +45,4 @@
     background-color: transparent;
     font-family: ArgentumRegular;
     font-size: 2.7vh;
-}
+} 
