@@ -5,3 +5,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+button:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+    border: 3px solid #fff;
+    transition: 0.4s;
+}
+
+li:hover{
+    font-weight: 700;
+    border: 1px solid #005BD5;
+    border-radius: 50px;
+    background-color: #005BD5;
+    color: #fff;
+    padding: 5px;
+    transition: 0.4s;
+}

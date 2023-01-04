@@ -5,6 +5,7 @@ import Busca from './components/main/busca'
 import MainViagens from './components/main/mainViagens/mainViagens'
 import Mural from './components/main/mural'
 import FaleConosco from './components/main/faleConosco'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <MainViagens />
       <Mural />
       <FaleConosco />
+      <Footer />
     </div>
   )
 }

@@ -1,11 +1,12 @@
-import { useState } from 'react'
 import Gudi from '../images/gudi.png'
 
+import '../styles/global.scss'
+import '../styles/footer.scss'
+
 function Footer() {
-    const [count, setCount] = useState(0)
 
     return (
-        <div className="App">
+        <div className="footerContainer">
             <nav>
                 <img src={Gudi} />
                 <ul>
