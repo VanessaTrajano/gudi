@@ -1,9 +1,10 @@
-@import url(./fonts/typography.css);
-
 .containerVN{
     width: 50%;
     padding: 5%;
-    font-family: ArgentumRegular;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .tracoDiv{
@@ -15,7 +16,31 @@
     height: 2vh;
 }
 
+.tracoDiv p{
+    font-family: ArgentumRegular;
+    font-size: 2vh;
+}
+
 .traco{
     height: 1px;
     width: 3vw;
+}
+
+.tittleViagem{
+    font-family: ArgentumBlack;
+    font-size: 6vh;
+    letter-spacing: 0.73px;
+    line-height: 1.2;
+}
+
+.textViagem{
+    font-family: ArgentumLight;
+}
+
+.buttonViagem{
+    font-family: ArgentumRegular;
+    background-color: transparent;
+    width: 35%;
+    height: 13%;
+    border-radius: 50px;
 }

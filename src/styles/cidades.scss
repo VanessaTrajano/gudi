@@ -1,0 +1,23 @@
+.cidadesContainer{
+    width: 25%;
+    position: relative;
+}
+
+.cidadesContainer img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.cidadesContainer button{
+    width: 45%;
+    height: 6vh;
+    border-radius: 50px;
+    border: 2px #fff solid;
+    background-color: rgba($color: #000, $alpha: 0.3);
+    color: #fff;
+    position: relative;
+    left: 26%;
+    top: 17vh;
+    font-family: ArgentumRegular;
+}
